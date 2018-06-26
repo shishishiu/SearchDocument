@@ -8,22 +8,44 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SearchDocument.Properties
-{
-
-
+namespace SearchDocument.Properties {
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "11.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
-        public static Settings Default
-        {
-            get
-            {
+        
+        public static Settings Default {
+            get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("\\\\172.31.13.11\\supervisores 2013\\OBJETIVOS MENSUALES\\06 ISO 9001 2015\\ejemplo doc" +
+            "\\")]
+        public string SearchPath {
+            get {
+                return ((string)(this["SearchPath"]));
+            }
+            set {
+                this["SearchPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\\\Users\\\\shiueh\\\\source\\\\repos\\\\SearchDocument\\\\SearchDocument\\\\openfile_Foxit." +
+            "bat")]
+        public string BatFilePath {
+            get {
+                return ((string)(this["BatFilePath"]));
+            }
+            set {
+                this["BatFilePath"] = value;
             }
         }
     }

@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SearchDocument"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" FontSize="15" >
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="109,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="282" x:Name="TextBoxFileName"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Height="39" Margin="109,159,0,0" VerticalAlignment="Top" Width="282" Click="Button_Click"/>
+        <Label Content=".PDF" HorizontalAlignment="Left" Height="27" Margin="392,91,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Content="Escribe nombre del archivo sin extensión&#10;y presiona 'Buscar'." Foreground="Gray" HorizontalAlignment="Left" Height="52" Margin="109,10,0,0" VerticalAlignment="Top" Width="282"/>
+
     </Grid>
 </Window>

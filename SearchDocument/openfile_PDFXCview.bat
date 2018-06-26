@@ -1,0 +1,1 @@
+"C:\Program Files\Tracker Software\PDF Viewer\PDFXCview.exe" /A "page=2&zoom=33.3&password=CALIDAD" %1
